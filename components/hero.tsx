@@ -3,10 +3,11 @@ import { Button } from "./ui/button";
 export function Hero() {
   return (
     <div className="min-h-[calc(100svh-4rem)] py-16 max-w-(--breakpoint-xl) mx-auto text-center px-6">
+      <div className="hover:scale-105 transition-transform duration-400">hola mundo</div>
       <strong className="font-semibold text-muted-foreground/90">
         Make Better Decisions, Faster
       </strong>
-      <h1 className="mt-5 max-w-3xl mx-auto text-4xl sm:text-5xl md:text-6xl leading-[1.1] font-semibold tracking-tighter text-balance">
+      <h1 className="mt-5 max-w-3xl mx-auto hover:scale-105 transition-transform duration-400 text-4xl sm:text-5xl md:text-6xl leading-[1.1] font-semibold tracking-tighter text-balance">
         Find Safety in Your Home with a Tech Smart Assistant
       </h1>
       <div className="mt-8 max-w-3xl mx-auto text-lg text-muted-foreground text-balance">
@@ -15,12 +16,44 @@ export function Hero() {
           peace of mind with a system that adapts to your needs.
         </p>
       </div>
-      <div className="mt-12 flex gap-4 justify-center">
-        <Button size="lg">Make a Request</Button>
-        <Button variant="outline" size="lg">
-          Learn More
+      <div className="mt-12 flex gap-4 justify-center ">
+        <Button
+          asChild
+          size="lg"
+          className="
+    bg-[rgb(227,132,255)]
+    hover:bg-black
+    hover:text-white
+    hover:scale-105
+    transition-all
+    duration-200
+  "
+        >
+          <a href="https://tu-link-aqui.com">
+            Make a Request
+          </a>
+        </Button>
+
+
+
+        <Button
+          variant="outline"
+          size="lg"
+          className="
+      hover:bg-blue-600 
+      hover:text-white 
+      hover:scale-105 
+      transition-all 
+      duration-200
+    "
+        >
+          <a href="https://tu-link-aqui.com">
+            Learn More
+          </a>
         </Button>
       </div>
+
+
 
       <div className="mt-20 aspect-video border rounded-lg bg-muted p-2">
         <div className="bg-background h-full w-full rounded border relative">
