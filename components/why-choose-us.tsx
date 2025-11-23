@@ -33,13 +33,13 @@ export function WhyChooseUs() {
       className="max-w-(--breakpoint-xl) mx-auto px-6 text-center py-24"
     >
       <strong className="font-semibold text-muted-foreground">
-        Why Choose Us
+        ¿Por qué escogernos?
       </strong>
       <h2 className="mt-5 max-w-4xl mx-auto text-4xl sm:text-5xl leading-[1.1] font-semibold tracking-tighter text-balance">
-        We are Leading in Smart Assistants with Nearly 20 Years of Experience
+        Experimenta la mejora en tu contenido, y creece sin esfuerzo
       </h2>
       <p className="mt-5 text-lg text-muted-foreground">
-        We are constantly always keep pace with the time.
+        Somos líderes en asistentes inteligentes y granjas automatizadas
       </p>
 
       <div className="mt-12 flex flex-wrap gap-4 justify-center">
