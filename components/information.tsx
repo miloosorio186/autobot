@@ -39,7 +39,9 @@ export function Information() {
                         </Button>
                     </div>
                 </div>
-                <div className="w-full aspect-video lg:aspect-auto lg:w-[1000px] lg:h-screen bg-accent rounded-xl lg:rounded-none" />
+                <div className="w-full aspect-video lg:aspect-auto lg:w-[1000px] lg:h-screen bg-accent rounded-xl lg:rounded-none">
+                    <img src="/hero.jpg" alt="" className="w-full h-full object-cover" />
+                </div>
             </div>
         </div>
     );

@@ -57,8 +57,12 @@ export function Hero() {
 
 
 
-      <div className="mt-20 aspect-video border rounded-lg bg-muted p-2">
-        <div className="bg-background h-full w-full rounded border relative">
+      <div className="mt-20 aspect-video shadow-[0_0_40px_rgba(0,0,0,0.5)] border rounded-lg bg-muted p-2">
+        <div className="bg-backgrounda  h-full w-full rounded border relative">
+          <img
+            src="/hero.jpg"
+            className="w-full h-full object-cover rounded"
+          />
           <div
             className="absolute inset-0 z-0"
             style={{

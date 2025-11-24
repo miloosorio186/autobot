@@ -11,6 +11,11 @@ export function CtaBanner({
         "relative dark dark:invert bg-background rounded-lg text-foreground py-20 px-10 overflow-hidden",
         className
       )}
+      style={{
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/hero.jpg)`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
       {...props}
     >
       <div className="relative z-1">
@@ -31,6 +36,7 @@ export function CtaBanner({
         className="absolute inset-0 -top-4 -left-px z-0"
         style={{
           backgroundImage: `
+    
         linear-gradient(to right, oklch(from var(--foreground) l c h / 0.1) 1px, transparent 1px),
         linear-gradient(to bottom, oklch(from var(--foreground) l c h / 0.1) 1px, transparent 1px)
       `,
