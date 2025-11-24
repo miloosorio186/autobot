@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HomeGuardian",
-  description: "Find Safety in Your Home with a Tech Smart Assistant",
+  title: "Autobots IA",
+  description: "Asistentes de granjas y automatizaciones comerciales",
 };
 
 export default function RootLayout({

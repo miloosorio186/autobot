@@ -11,7 +11,7 @@ import { Information } from "@/components/information";
 
 export default function Home() {
   return (
-    <div>
+    <div >
       <div className="relative bg-primary/4">
         <Navbar />
         <Hero />

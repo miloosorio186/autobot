@@ -1,18 +1,21 @@
+
 import { Button } from "./ui/button";
+import { RainbowText } from "./ui/RainbowText";
+
 
 export function Hero() {
   return (
-    <div className="min-h-[calc(100svh-4rem)] py-16 max-w-(--breakpoint-xl) mx-auto text-center px-6">
-      <strong className="font-semibold text-muted-foreground/90">
-        Automatiza tu negocio
-      </strong>
+    <div className="min-h-[calc(100svh-4rem)] py-16 max-w-(--breakpoint-xl) mx-auto mt-20 text-center px-6">
+      <RainbowText>
+        Impulsa tu negocio con tecnología avanzada
+      </RainbowText>
       <h1 className="mt-5 max-w-3xl mx-auto text-4xl sm:text-5xl md:text-6xl leading-[1.1] font-semibold tracking-tighter text-balance">
-        Find Safety in Your Home with a Tech Smart Assistant
+        Escala tu marca con automatización avanzada
       </h1>
       <div className="mt-8 max-w-3xl mx-auto text-lg text-muted-foreground text-balance">
         <p>
-          Our smart assistant uses AI to help you find safety in your home. Find
-          peace of mind with a system that adapts to your needs.
+          Potencia tu presencia online con sistemas automatizados de interacción, análisis y despliegue masivo. Una infraestructura diseñada para escalar,
+          optimizar y transformar tus resultados digitales de forma eficiente y segura
         </p>
       </div>
       <div className="mt-12 flex gap-4 justify-center ">
@@ -31,7 +34,7 @@ export function Hero() {
   "
         >
           <a href="https://tu-link-aqui.com">
-            Make a Request
+            Solicitar Demo
           </a>
         </Button>
 
@@ -50,7 +53,7 @@ export function Hero() {
     "
         >
           <a href="https://tu-link-aqui.com">
-            Learn More
+            Ver Servicios
           </a>
         </Button>
       </div>

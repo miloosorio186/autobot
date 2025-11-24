@@ -15,16 +15,14 @@ export function Information() {
                         asChild
                     >
                         <Link href="#">
-                            Just released v1.0.0 <ArrowUpRight className="ml-1 size-4" />
+                            Infraestructura optimizada · v1.0.0 <ArrowUpRight className="ml-1 size-4" />
                         </Link>
                     </Badge>
                     <h1 className="mt-6 max-w-[17ch] text-4xl md:text-5xl lg:text-[2.75rem] xl:text-[3.25rem] font-semibold leading-[1.2]! tracking-tighter">
-                        Customized Shadcn UI Blocks & Components
+                        Scalable Automation for Massive Digital Workloads
                     </h1>
                     <p className="mt-6 max-w-[60ch] text-lg text-foreground/80">
-                        Explore a collection of Shadcn UI blocks and components, ready to
-                        preview and copy. Streamline your development workflow with
-                        easy-to-implement examples.
+                        Soluciones potentes para ejecutar, monitorear y escalar procesos digitales de alto volumen, con configuraciones personalizadas y máxima estabilidad.
                     </p>
                     <div className="mt-12 flex items-center gap-4">
                         <Button size="lg" className="rounded-full text-base">
@@ -39,8 +37,8 @@ export function Information() {
                         </Button>
                     </div>
                 </div>
-                <div className="w-full aspect-video lg:aspect-auto lg:w-[1000px] lg:h-screen bg-accent rounded-xl lg:rounded-none">
-                    <img src="/hero.jpg" alt="" className="w-full h-full object-cover" />
+                <div className="w-full aspect-video lg:aspect-auto lg:w-[1000px] lg:h-screen bg-accent rounded-xl shadow-[0_0_40px_0_rgba(0,0,0,0.1)] lg:rounded-none">
+                    <img src="/hero.jpg" alt="" className="w-full h-full object-cover shadow-[0_0_40px_0_rgba(0,0,0,0.1)]" />
                 </div>
             </div>
         </div>
