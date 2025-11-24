@@ -26,6 +26,8 @@ export function Hero() {
     hover:scale-105
     transition-all
     duration-200
+    shadow-lg
+    hover:shadow-[0_0_40px_rgba(0,0,0,0.5)]
   "
         >
           <a href="https://tu-link-aqui.com">
@@ -37,12 +39,14 @@ export function Hero() {
 
         <Button
           size="lg"
-          className=" bg-[rgb(25,24,37)]
-      hover:bg-blue-200
+          className=" bg-[rgb(134,93,255)]
+      hover:[rgb(227,132,255)]
       hover:text-white 
       hover:scale-105 
       transition-all 
       duration-200
+      shadow-xl
+      hover:shadow-[0_0_40px_rgba(0,0,0,0.5)]
     "
         >
           <a href="https://tu-link-aqui.com">

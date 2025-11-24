@@ -10,19 +10,19 @@ import { LogoCloud } from "./logo-cloud";
 const plusPoints = [
   {
     icon: ShieldCheckIcon,
-    title: "Real-Time Protection",
+    title: "Rapidez",
     description:
-      "Stay alert with instant notifications and smart security monitoring.",
+      "Trabajamos las 24 horas del dia, para darte la respuesta mas rapida",
   },
   {
     icon: CogIcon,
-    title: "Smart & Simple Setup",
-    description: "Install easily in minutes with no complex tools or wiring.",
+    title: "Sencillo de adquirir",
+    description: "Contactarnos es facil, y adquirir es sencilloS",
   },
   {
     icon: BinocularsIcon,
-    title: "Peace of Mind Anywhere",
-    description: "Monitor and control your home from anywhere, anytime.",
+    title: "Alcanza tus objetivos",
+    description: "Con un asistente inteligente, puedes alcanzar tus objetivos mas rapido",
   },
 ];
 
@@ -46,7 +46,7 @@ export function WhyChooseUs() {
         {plusPoints.map((plusPoint) => (
           <div
             key={plusPoint.title}
-            className="relative overflow-hidden border rounded-lg px-6 py-10 w-full sm:max-w-xs flex flex-col items-center gap-2 bg-gradient-to-b from-primary/3"
+            className="relative overflow-hidden border rounded-lg px-6 py-10 w-full sm:max-w-xs flex flex-col items-center gap-2  bg-gradient-to-b from-transparent "
           >
             <BackgroundPattern />
 
@@ -64,7 +64,7 @@ export function WhyChooseUs() {
 
       <div className="mt-32 space-y-12">
         <p className="text-3xl font-medium tracking-tight">
-          Trusted by over 30,000 businesses and 1,500,000 users
+          Trabajamos en mas de 20 redes sociales activas para trabajar
         </p>
         <LogoCloud />
       </div>

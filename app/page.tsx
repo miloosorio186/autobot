@@ -7,6 +7,7 @@ import { Industries } from "@/components/industries";
 import { Navbar } from "@/components/navbar";
 import { Testimonials } from "@/components/testimonials";
 import { WhyChooseUs } from "@/components/why-choose-us";
+import { Information } from "@/components/information";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <BackgroundPattern />
       </div>
 
+      <Information />
       <WhyChooseUs />
       <Industries />
       <FeaturesComparison />
